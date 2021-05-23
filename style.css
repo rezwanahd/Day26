@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* fix-menu  */
+.text-left {
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.clear::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+a {
+    text-decoration: none;
+}
+.mix-content {
+    max-width: 1300px;
+    margin: auto;
+}
+
+/* css-menu  */
+.top-header {
+    background: #fff;
+    border-top: 3px solid rgb(32, 82, 245);
+}
+figure {
+    width: 40%;
+    padding: 21px 0px 14px 75px;
+    color: blue;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+}
+.logo span {
+    font-weight: 600;
+}
+nav {
+    width: 60%;
+    margin-top: -43px;
+}
+nav ul {
+    margin-left: 90px;
+}
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+nav ul li a {
+    color: gray;
+    font-size: 20px;
+    padding: 20px;
+}
+nav ul li:hover > a {
+    color: rgba(245, 160, 50, 0.822);
+}
+nav ul li ul {
+    position: absolute;
+    top: 110%;
+    left: -70px;
+    width: 155px;
+    background-color: #f7f7f7;
+    transition: 0.6s;
+    opacity: 0;
+    z-index: 999;
+    visibility: hidden;
+    transform: scaleY(0);
+    transform-origin: top center;
+}
+nav ul li ul li {
+    display: block;
+    text-align: center;
+}
+nav ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+
+.slider-section {
+    background-image: url("https://i.ibb.co/4ZLxqNh/190153210-1434016676932821-6215580788557941244-n.jpg");
+    background-size: cover;
+    padding: 200px 0;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    margin-top: 100px;
+}
+.slider-section::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+
+    background: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+.slider-section h4 {
+    position: relative;
+    top: 16px;
+    left: 587px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+.slider-section h1 {
+    margin-top: 20px;
+    position: relative;
+    top: 76px;
+    left: 523px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 3px;
+    font-size: 45px;
+}
+.slider-section a {
+    background-color: rgb(12, 57, 124);
+    position: relative;
+    top: 100px;
+    left: 594px;
+    color: #fff;
+    padding: 17px 30px 17px 30px;
+    transition: 0.6s;
+}
+.slider-section a:hover {
+    background-color: rgb(238, 135, 135);
+}
+video {
+    width: 500px;
+    height: auto;
+    margin: 50px 5px 5px 80px;
+}
+.video-text {
+    width: 50%;
+    margin: 70px 0px 0px 20px;
+}
+.address {
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 30%;
+}
+.address span {
+    color: rgb(47, 82, 13);
+}
+.contact {
+    margin-top: 354px;
+    background-color: #ddd;
+}
+.contac--text {
+    position: relative;
+    left: 57px;
+    top: 50px;
+}
+form {
+    float: right;
+    margin: 61px 160px 50px 0px;
+}
+#name {
+    padding: 5px 392px 6px 10px;
+    background: #fff;
+}
+#email {
+    padding: 5px 392px 6px 10px;
+    background: #fff;
+}
+#date {
+    padding: 10px 435px 6px 9px;
+    background: #fff;
+}
+.far.fa-calendar {
+    position: relative;
+    right: 20px;
+}
+element {
+    padding: 5px;
+}
+input {
+    padding: 11px 20px 10px 15px;
+    background-color: rgb(165, 57, 57);
+}
+
+/* fotter */
+.footer-bottom {
+    background: black;
+    color: #fff;
+    padding: 80px;
+    text-align: center;
+    font-size: 23px;
+    letter-spacing: 2px;
+    margin: 2px 0px 10px 0px;
+}
